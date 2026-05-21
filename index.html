@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsoHabbo Wasm</title>
+    <style>
+        body { 
+            background-color: #1a1a1a; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        canvas { 
+            background-color: #2c2c2c; 
+            border: 2px solid #444; 
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script type="module" src="src/main.ts"></script>
+</body>
+</html>
